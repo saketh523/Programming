@@ -22,7 +22,7 @@ public class FloodFill {
 
     public static void floodfill(int[][] maze, int row, int col, String psf, boolean[][] visited){
 
-        if(row<0 || col<0 || row==maze.length || col == maze.length || maze[row][col] == 1 || visited[row][col] == true){
+        if(row<0 || col<0 || row==maze.length || col == maze[0].length || maze[row][col] == 1 || visited[row][col] == true){
             return;
         } 
 
