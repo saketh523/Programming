@@ -5,13 +5,15 @@ public class Pattern7{
         int n = scn.nextInt();
         int val=0,i,spaces;
         for(i=1;i<=n;i++){
-            for(spaces=0;spaces<val;spaces++){
-                System.out.print("\t");
+            for(int j=1; j<=n; j++){
+                if(i==j){
+                    System.out.print("*\t");
+                }
+                else{
+                    System.out.print("\t");
+                }
             }
-            val++;
-            System.out.print("*");
-            System.out.print("\n");
-
+            System.out.println();
         }
     }
 }
