@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Pattern6 {
 
     public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class Pattern6 {
                 star++;
                 space = space - 2;
             }
-        System.out.println();
+            System.out.println();
         }
 
     }

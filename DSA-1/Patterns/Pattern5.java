@@ -4,7 +4,6 @@ public class Pattern5 {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-
         int n = scn.nextInt();
         int space = n/2;
         int star = 1;
@@ -33,7 +32,5 @@ public class Pattern5 {
             }
             System.out.println();
         }
-
-
     }
 }
