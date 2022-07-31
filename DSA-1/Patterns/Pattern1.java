@@ -11,6 +11,7 @@ public class Pattern1 {
                 System.out.print("*\t");
             }
             System.out.println();
+
         }
     }
 }
