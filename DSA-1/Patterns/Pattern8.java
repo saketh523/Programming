@@ -7,11 +7,14 @@ public class Pattern8{
         int star = 1;
 
         for(int i=1; i<=n; i++){
-            for(int j=1; j<=space; j++){
-                System.out.print("\t");
+            for(int j=1; j<=n; j++){
+                if(i+j == n+1){
+                    System.out.print("*\t");
+                }
+                else{
+                    System.out.print("\t");
+                }
             }
-            System.out.print("*\t");
-            space--;
             System.out.println();
         }
     }
