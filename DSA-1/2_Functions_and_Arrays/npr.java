@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class npr {
     public static int fact(int x){
         int rv = 1;
