@@ -11,7 +11,6 @@ public class span{
         for(int i = 0; i < arr.length; i++){
             arr[i] = scn.nextInt();
         }
-
         int max = 0;
         int min = arr[0];
 
